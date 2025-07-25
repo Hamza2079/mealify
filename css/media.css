@@ -1,0 +1,293 @@
+@media screen and (max-width: 1200px) {
+    .links {
+        display: none;
+    }
+
+    .fa-bars {
+        display: inline-block;
+        margin-left: 20px;
+        cursor: pointer;
+    }
+
+    #home .container {
+        justify-content: space-between;
+    }
+
+    .btns button {
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap;
+        align-items: center;
+        padding-inline: 20px;
+        margin-right: 0;
+    }
+
+    .home-text {
+        width: 38%;
+    }
+
+    .home-text h2,
+    .home-text p {
+        width: 400px;
+    }
+
+    .btns {
+        width: 110%;
+        justify-content: space-between;
+    }
+
+    #Gallery .gal {
+        height: 845px;
+    }
+
+    .gri-pic {
+        width: 27%;
+    }
+
+    .container {
+        flex-wrap: wrap;
+    }
+
+    .part1 {
+        width: 46%;
+        order: 1;
+    }
+
+    .part3 {
+        width: 46%;
+        order: 2;
+    }
+
+    .part2 {
+        width: 100%;
+        order: 3;
+    }
+
+}
+
+@media (max-width: 991.98px) {
+    .home-img {
+        width: 100%;
+        order: 1;
+        margin: auto;
+    }
+
+    .home-text {
+        width: 90%;
+        order: 2;
+        margin: auto;
+        text-align: center;
+    }
+
+    .btns {
+        width: 100%;
+        justify-content: center;
+        margin: auto;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .home-text a {
+        width: 30%;
+    }
+
+    .btns button {
+        border-radius: 30px;
+    }
+
+    .home-text h2 {
+        text-align: center;
+        margin: auto;
+    }
+
+    .home-text p {
+        text-align: center;
+        width: 100%;
+    }
+
+    #Chefs .container {
+        justify-content: space-between;
+
+    }
+
+    .card {
+        width: 48%;
+        margin-bottom: 20px;
+    }
+
+    #Gallery .gal {
+        display: flex;
+        height: 1700px;
+        align-items: center;
+
+
+        width: 100%;
+    }
+
+    .gri-pic {
+        width: 45%;
+
+    }
+
+    .pic2 {
+        order: 3;
+    }
+
+    .pic5 {
+        order: 2;
+    }
+
+    .pic4 {
+        order: 4;
+    }
+
+    .pic3 {
+        order: 5;
+    }
+
+    .pic7 {
+        order: 6;
+    }
+
+    .pic6 {
+        order: 7;
+    }
+
+    .contact-form .name,
+    .contact-form .email {
+        width: calc(90% + 15px);
+        flex-wrap: wrap;
+    }
+
+
+}
+
+@media (max-width: 768px) {
+    .home-img {
+        width: 80%;
+        order: 1;
+        margin: auto;
+    }
+
+    .home-text a {
+        width: 170px;
+    }
+
+    .btns {
+        width: 100%;
+        justify-content: center;
+        margin: auto;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .c-text {
+        width: 90%;
+        margin: 0 auto;
+
+    }
+
+    #Gallery .gal {
+
+        flex-wrap: nowrap;
+        height: fit-content;
+        width: 100%;
+    }
+
+    .gri-pic {
+        width: 100%;
+    }
+
+    .pic2 {
+        order: 3;
+    }
+
+    .pic5 {
+        order: 2;
+    }
+
+    .pic4 {
+        order: 4;
+    }
+
+    .pic3 {
+        order: 5;
+    }
+
+    .pic7 {
+        order: 6;
+    }
+
+    .pic6 {
+        order: 7;
+    }
+
+    .loc {
+        width: calc(94% + 20px);
+    }
+
+    .container {
+        flex-wrap: wrap;
+    }
+
+    .part1 {
+        width: 100%;
+        order: 1;
+    }
+
+    .part3 {
+        width: 100%;
+        order: 3;
+    }
+
+    .part2 {
+        width: 100%;
+        order: 2;
+    }
+
+
+}
+
+
+@media (max-width: 576px) {
+
+
+    .home-img {
+        width: 100%;
+        order: 1;
+        margin: auto;
+    }
+
+    .home-text a {
+        width: 50%;
+        justify-content: flex-end;
+    }
+
+    .home-text h2 {
+        text-align: center;
+        margin: auto;
+        width: 100%;
+    }
+
+    .btns {
+        width: 100%;
+        justify-content: space-between;
+        margin: auto;
+        text-align: center;
+    }
+}
+
+@media (min-width: 1400px) {
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+
+
+}
